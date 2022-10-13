@@ -38,6 +38,15 @@ img {width: 100%;}
     outline-offset: 2px;
 }
 
+.ps__button.blue--button {
+    background-color: var(--ps-blue);
+}
+
+.ps__button.blue--button:hover {
+    outline: 2px solid var(--ps-blue);
+    outline-offset: 2px;
+}
+
 /******************************
             HEADER
 ******************************/
@@ -84,4 +93,15 @@ img {width: 100%;}
     border-radius: 15px;
     outline: 2px solid var(--ps-blue);
     outline-offset: 2px;
+}
+
+/******************************
+        PS5 SECTION
+******************************/
+.ps__section h6 {
+    color: var(--ps-blue);
+}
+
+.ps__section__card:hover {
+    border-bottom: 2px solid var(--ps-blue);
 }
