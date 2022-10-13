@@ -112,6 +112,12 @@ img {width: 100%;}
 ******************************/
 .media__block__bg {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
 
-
+/******************************
+        NEW RELESES SECTION
+******************************/
+.new__releses {
+    background-color: var(--ps-bg-dark);
+    color: var(--ps-text-w);
 }
