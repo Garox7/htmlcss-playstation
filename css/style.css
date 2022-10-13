@@ -1,0 +1,87 @@
+:root {
+    --ps-text-b: #1f1f1f;
+    --ps-text-w: #ffffff;
+    --ps-blue: #0070cc;
+    --ps-black: #000000;
+    --ps-red: #D53B00;
+
+}
+
+/********* GENERAL SETTING ******/
+html, body {font-family: Arial, Helvetica, sans-serif;}
+a {text-decoration: none;}
+img {width: 100%;}
+
+/*********** BUTTON STYLE **********/
+.ps__button {
+    color: var(--ps-text-w);
+    padding: 5px 14px;
+    border-radius: 30px;
+    border: none;
+}
+
+.ps__button.primary {
+    background-color: var(--ps-black);
+}
+
+.ps__button.primary:hover {
+    outline: 2px solid var(--ps-black);
+    outline-offset: 2px;
+}
+
+.ps__button.alert {
+    background-color: var(--ps-red);
+}
+
+.ps__button.alert:hover {
+    outline: 2px solid var(--ps-red);
+    outline-offset: 2px;
+}
+
+/******************************
+            HEADER
+******************************/
+
+/* top bar  */
+.top__navbar {
+    background-color: var(--ps-black);
+    height: 30px;
+}
+
+.top__navbar__logo {
+    width: 75px;
+}
+
+/* nav bar  */
+.logo {
+    width: 50px;
+}
+
+.ps__dropdown {
+    position: unset;
+}
+
+/******************************
+        HERO SECTION
+******************************/
+.hero__section {
+    color: var(--ps-text-w);
+    width: 100vw;
+    height: 500px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/******************************
+        CARD SECTION
+******************************/
+.card--rounded {
+    border-radius: 15px;
+}
+
+.card__thumb:hover {
+    border-radius: 15px;
+    outline: 2px solid var(--ps-blue);
+    outline-offset: 2px;
+}

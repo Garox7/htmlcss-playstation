@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sito ufficiale PlayStation</title>
+    <link rel="icon" type="image/x-icon" href="img/ps-logo-favicon.webp">
 
      <!-- bootstrap  -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -14,6 +15,160 @@
      <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+    <!----------------------------
+                 HEADER  
+    ------------------------------>
+    <header>
+
+        <!-- top bar  -->
+        <div class="top__navbar container-fluid d-flex justify-content-end">
+            <div class="top__navbar__logo">
+                <img src="img/sony_logo.svg" alt="Logo Sony">
+            </div>
+        </div>
+
+        <!-- nav bar  -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <!-- logo -->
+                <img class="logo" src="img/play_logo.svg" alt="">
+
+                <!-- hamburger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- link -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- link list principale  -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown ps__dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu w-100">
+                                <div class="d-flex justify-content-center">
+                                    <li>
+                                        <a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                            <img src="img/play-menu-ico.png" alt="Icona Playstation5">
+                                            <span>Action</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </li>
+                                </div>
+
+                                <li><hr class="dropdown-divider"></li>
+                                
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        
+                    </ul>
+
+                    <!-- link list secondaria  -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown ps__dropdown d-flex align-items-center">
+                            <a class="nav-link dropdown-toggle me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu w-100">
+                                <div class="d-flex justify-content-center">
+                                    <li>
+                                        <a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                            <img src="img/play-menu-ico.png" alt="Icona Playstation5">
+                                            <span>Action</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </li>
+                                </div>
+
+                                <li><hr class="dropdown-divider"></li>
+                                
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                            <button class="ps__button primary me-3">Accedi</button>
+                            <div class="ps__navbar__ico">
+                                <img src="img/lens.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!----------------------------
+                HERO SECTION  
+        ------------------------------>
+        <section class="hero mb-5">
+            <div class="d-flex align-items-end container-fluid hero__section">
+                <div class="hero__text col col-md-10 col-lg-4 mx-3 mb-5 mx-md-4">
+                    <div class="hero__img mb-4 w-50 w-lg-25">
+                        <img src="img/returnal-hero-banner-logo.png" alt="">
+                    </div>
+                    <h1 class="mb-4">Rompi il cerchio</h1>
+                    <p class="mb-4">Rialzati dopo ogi sconfitta e ffronta una nuova sfida con ogni rinascita in questo espolisivo thriller fantascientifico, disponibile in esclusiva per PS5.</p>
+                    <button class="ps__button alert">Acquista ora</button>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------
+                CARD SECTION  
+        ------------------------------>
+        <section class="card__section">
+            <div class="container-fluid py-1">
+                <div class="row g-4">
+                    <div class="col-6 col-sm-4 col-xl-2 flex-grow-1 ">
+                        <div class="card__thumb">
+                            <img class="card--rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-xl-2 flex-grow-1">
+                        <div class="card__thumb">
+                            <img class="card--rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-xl-2 flex-grow-1">
+                        <div class="card__thumb">
+                            <img class="card--rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-xl-2 flex-grow-1">
+                        <div class="card__thumb">
+                            <img class="card--rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-xl-2 flex-grow-1">
+                        <div class="card__thumb">
+                            <img class="card--rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-xl-2 flex-grow-1">
+                        <div class="card__thumb">
+                            <img class="card--rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer></footer>
 </body>
 </html>
