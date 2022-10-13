@@ -3,6 +3,7 @@
     --ps-text-w: #ffffff;
     --ps-bg-dark: #121314;
     --ps-bg-gray: #b8bcc4;
+    --ps-gray: #d0d1d4;
     --ps-blue: #0070cc;
     --ps-black: #000000;
     --ps-red: #D53B00;
@@ -47,6 +48,11 @@ img {width: 100%;}
 .ps__button.blue--button:hover {
     outline: 2px solid var(--ps-blue);
     outline-offset: 2px;
+}
+
+.ps__button.gray--button {
+    background-color: var(--ps-gray);
+    color: var(--ps-blue);
 }
 
 /******************************
@@ -129,4 +135,11 @@ img {width: 100%;}
 
 .ps__card__body {
     padding: unset;
+}
+
+/******************************
+    MEDIA BLOCK SMALL SECTION  
+******************************/
+.media__block__small {
+    background-color: var(--ps-bg-gray);
 }
