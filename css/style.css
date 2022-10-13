@@ -3,6 +3,7 @@
     --ps-text-w: #ffffff;
     --ps-bg-dark: #121314;
     --ps-bg-gray: #b8bcc4;
+    --ps-bg-blue: #11152d;
     --ps-gray: #d0d1d4;
     --ps-blue: #0070cc;
     --ps-black: #000000;
@@ -53,6 +54,11 @@ img {width: 100%;}
 .ps__button.gray--button {
     background-color: var(--ps-gray);
     color: var(--ps-blue);
+}
+
+.ps__button.white--button {
+    background-color: var(--ps-text-w);
+    color: var(--ps-text);
 }
 
 /******************************
@@ -138,8 +144,19 @@ img {width: 100%;}
 }
 
 /******************************
-    MEDIA BLOCK SMALL SECTION  
+    PS PLUS SECTION  
 ******************************/
-.media__block__small {
+.ps__plus__section {
     background-color: var(--ps-bg-gray);
+}
+
+/******************************
+    PS NOW SECTION  
+******************************/
+.ps__now__section {
+    background-color: var(--ps-bg-blue);
+}
+
+.ps__now__text {
+    color: var(--ps-text-w);
 }
