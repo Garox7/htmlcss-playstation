@@ -2,6 +2,7 @@
     --ps-text-b: #1f1f1f;
     --ps-text-w: #ffffff;
     --ps-bg-dark: #121314;
+    --ps-bg-gray: #b8bcc4;
     --ps-blue: #0070cc;
     --ps-black: #000000;
     --ps-red: #D53B00;
@@ -99,11 +100,11 @@ img {width: 100%;}
 /******************************
         PS5 SECTION
 ******************************/
-.ps__section h6 {
+.ps5__section h6 {
     color: var(--ps-blue);
 }
 
-.ps__section__card:hover {
+.ps5__section__card:hover {
     border-bottom: 2px solid var(--ps-blue);
 }
 
@@ -120,4 +121,12 @@ img {width: 100%;}
 .new__releses {
     background-color: var(--ps-bg-dark);
     color: var(--ps-text-w);
+}
+
+.ps__card {
+    border: unset;
+}
+
+.ps__card__body {
+    padding: unset;
 }
