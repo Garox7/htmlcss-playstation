@@ -1,6 +1,7 @@
 :root {
     --ps-text-b: #1f1f1f;
     --ps-text-w: #ffffff;
+    --ps-bg-dark: #121314;
     --ps-blue: #0070cc;
     --ps-black: #000000;
     --ps-red: #D53B00;
@@ -76,7 +77,7 @@ img {width: 100%;}
 .hero__section {
     color: var(--ps-text-w);
     width: 100vw;
-    height: 500px;
+    height: 600px;
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
@@ -104,4 +105,13 @@ img {width: 100%;}
 
 .ps__section__card:hover {
     border-bottom: 2px solid var(--ps-blue);
+}
+
+/******************************
+        MEDIA-BLOCK SECTION
+******************************/
+.media__block__bg {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+
+
 }
