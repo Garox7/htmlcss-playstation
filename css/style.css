@@ -19,7 +19,7 @@ img {width: 100%;}
 /*********** BUTTON STYLE **********/
 .ps__button {
     color: var(--ps-text-w);
-    padding: 5px 14px;
+    padding: 5px 15px;
     border-radius: 30px;
     border: none;
 }
@@ -66,24 +66,62 @@ img {width: 100%;}
 ******************************/
 
 /* top bar  */
-.top__navbar {
+.top__navbar__logo {
     background-color: var(--ps-black);
-    height: 30px;
+    height: 35px;
 }
 
-.top__navbar__logo {
-    width: 75px;
+.top__navbar__logo img {
+    width: 90px;
 }
 
 /* nav bar  */
+.bg-light {
+    background-color: var(--ps-text-w) !important;
+}
+
 .logo {
     width: 50px;
 }
 
-.ps__dropdown {
-    position: unset;
+.dropdown {
+    position: static;
 }
 
+.dropdown-toggle::after {
+    border: 0;
+    vertical-align: unset;
+    content: url("../img/chevron-down-solid.svg");
+    width: 12px;
+    transition: all .2s ease-in-out;
+
+}
+
+.dropdown-toggle.show::after {
+    content: url("../img/chevron-down-solid-hover.svg");
+    transition: all .2s ease-in-out;
+    transform: rotate(180deg);
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    border: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.ps__navbar__ico {
+    width: 34px;
+}
 /******************************
         HERO SECTION
 ******************************/
@@ -159,4 +197,11 @@ img {width: 100%;}
 
 .ps__now__text {
     color: var(--ps-text-w);
+}
+
+/******************************
+    FOOTER  
+******************************/
+footer {
+    background-color: var(--ps-blue);
 }

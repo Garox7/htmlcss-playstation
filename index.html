@@ -22,90 +22,113 @@
     <header>
 
         <!-- top bar  -->
-        <div class="top__navbar container-fluid d-flex justify-content-end">
-            <div class="top__navbar__logo">
+        <div class="top__navbar">
+            <div class="top__navbar__logo container-fluid d-flex justify-content-end py-2">
                 <img src="img/sony_logo.svg" alt="Logo Sony">
             </div>
         </div>
 
         <!-- nav bar  -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <!-- logo -->
-                <img class="logo" src="img/play_logo.svg" alt="">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <!-- logo -->
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="img/play_logo.svg" alt="">
+                    </a>
 
-                <!-- hamburger -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <!-- hamburger -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <!-- link -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- link -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <!-- link list principale  -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown ps__dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                            </a>
-                            <ul class="dropdown-menu w-100">
-                                <div class="d-flex justify-content-center">
+                        <!-- link list principale  -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Giochi
+                                </a>
+                                <ul class="dropdown-menu w-100">
                                     <li>
                                         <a class="dropdown-item d-flex flex-column align-items-center" href="#">
                                             <img src="img/play-menu-ico.png" alt="Icona Playstation5">
                                             <span>Action</span>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                </div>
 
-                                <li><hr class="dropdown-divider"></li>
-                                
-                                <li>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        
-                    </ul>
-
-                    <!-- link list secondaria  -->
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown ps__dropdown d-flex align-items-center">
-                            <a class="nav-link dropdown-toggle me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                            </a>
-                            <ul class="dropdown-menu w-100">
-                                <div class="d-flex justify-content-center">
                                     <li>
                                         <a class="dropdown-item d-flex flex-column align-items-center" href="#">
                                             <img src="img/play-menu-ico.png" alt="Icona Playstation5">
                                             <span>Action</span>
                                         </a>
                                     </li>
+                                    
                                     <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                            <img src="img/play-menu-ico.png" alt="Icona Playstation5">
+                                            <span>Action</span>
+                                        </a>
                                     </li>
-                                </div>
 
-                                <li><hr class="dropdown-divider"></li>
-                                
-                                <li>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </li>
-                            </ul>
-                            <button class="ps__button primary me-3">Accedi</button>
-                            <div class="ps__navbar__ico">
-                                <img src="img/lens.svg" alt="">
+                                    <li class="w-100">
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    
+                                    <li class="d-flex">
+                                        <a class="dropdown-item" href="#">Fai i tuoi acquisti</a>
+                                        <a class="dropdown-item" href="#">Fai i tuoi acquisti</a>
+                                        <a class="dropdown-item" href="#">Fai i tuoi acquisti</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            
+                        </ul>
+
+                        <!-- link list secondaria  -->
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                MyPlayStation
+                                </a>
+                                <ul class="dropdown-menu w-100">
+                                    <li>
+                                        <a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                            <img src="img/play-menu-ico.png" alt="Icona Playstation5">
+                                            <span>Action</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                            <img src="img/play-menu-ico.png" alt="Icona Playstation5">
+                                            <span>Action</span>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                            <img src="img/play-menu-ico.png" alt="Icona Playstation5">
+                                            <span>Action</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            
+                            <div class="text-center">
+                                <button class="ps__button primary me-3">Accedi</button>
+                                <div class="ps__navbar__ico d-inline-block">
+                                    <img src="img/lens.svg" alt="">
+                                </div>
                             </div>
-                        </li>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-          </nav>
+            </nav>
+        
     </header>
 
     <main>
@@ -113,7 +136,7 @@
                 HERO SECTION  
         ------------------------------>
         <section class="hero mb-5">
-            <div class="hero__section container-fluid d-flex align-items-end p-3 p-md-5">
+            <div class="hero__section container-fluid d-flex align-items-end p-3">
                 <div class="col col-md-10 col-lg-4 mx-md-4">
                     <div class="mb-4 w-50 w-lg-25">
                         <img src="img/returnal-hero-banner-logo.png" alt="">
@@ -345,9 +368,9 @@
            PS PLUS SECTION  
         ------------------------------>
         <section class="ps__plus__section mb-5">
-            <div class="container-fluid px-3">
+            <div class="container-fluid ">
                 <div class="row align align-items-center">
-                    <div class="col-md-6 py-5">
+                    <div class="col-md-6 px-3 py-5 p-md-5">
                         <div class="mb-4 w-50 w-lg-25">
                             <img src="img/ps-plus-logo.png" alt="">
                         </div>
@@ -389,11 +412,11 @@
            PS NOW SECTION  
         ------------------------------>
         <section class="ps__now__section mb-5">
-            <div class="container-fluid px-3">
+            <div class="container-fluid">
                 <div class="row align align-items-center">
-                    <div class="col-md-6 py-5">
+                    <div class="col-md-6 px-3 py-5 p-md-5">
                         <div class="mb-4 w-50 w-lg-25">
-                            <img src="img/ps-plus-logo.png" alt="">
+                            <img src="img/ps-now-logo-two-column.png" alt="">
                         </div>
                         <p class="ps__now__text mb-4">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa e plattaforme che stravolge il suo genere.</p>
                         <button class="ps__button white--button">Esplora PlayStation Now</button>
@@ -408,27 +431,45 @@
         <!----------------------------
            SOCIAL SECTION  
         ------------------------------>
-        <section class="social__section p-5 mb-5">
-            <div class="container-fluid ">
+        <section class="social__section">
+            <div class="container-fluid p-3 p-mb-5">
                 <h1 class="text-center mb-5">Seguici sui social media</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-6 col-sm-3">
-                    <img src="img/twitter.jpg" alt="">
-                </div>  
-                <div class="col-6 col-sm-3">
-                    <img src="img/facebook.jpg" alt="">
-                </div>
-                <div class="col-6 col-sm-3">
-                    <img src="img/instagram.jpg" alt="">
-                </div>
-                <div class="col-6 col-sm-3">
-                    <img src="img/youtube.png" alt="">
+                <div class="row g-4">
+                    <div class="col-6 col-sm-3">
+                        <img src="img/twitter.jpg" alt="">
+                    </div>  
+                    <div class="col-6 col-sm-3">
+                        <img src="img/facebook.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <img src="img/instagram.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <img src="img/youtube.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <!-- <div class="container-fluid p-4">
+            <div class="row mb-5">
+                <div class="col-3 pt-5">
+                    <img src="img/ps-footer.svg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 d-flex justify-content-center">
+                    <div class="col-2 ms-5">
+                        <img src="img/language-globe.svg" alt="">
+                    </div>
+                    <div class="col-auto ms-3">
+                        <p>Country /Region: Italy</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </footer>
 </body>
 </html>
